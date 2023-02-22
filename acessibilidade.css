@@ -1,0 +1,119 @@
+/* toolbar start */
+#acessibilidade-sidebar{
+    position:fixed;
+    z-index:2147483647;
+    top:30%;
+    left:5px;
+    display:flex;
+}
+#acessibilidade-sidebar .btns{
+display: grid;
+grid-template-columns: 45px;
+grid-row-gap: 5px;
+}
+
+#acessibilidade-sidebar .btns button{
+    outline:0;
+    border:none;
+    padding:0;
+    margin:0;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #2774AE;
+    width:fit-content;
+    max-width:40px;
+    height: 40px;
+    overflow:hidden;
+    transition:max-width 0.8s ease 0s;
+    white-space:nowrap;
+}
+
+#acessibilidade-sidebar .btns button img {
+    box-sizing:border-box;
+    display:block;
+    width:40px;
+    height:40px;
+    padding: 5px;
+    max-width: unset !important;
+}
+
+#acessibilidade-sidebar .btns button .open-close{
+    position:relative;
+    margin-left:-5px;
+    padding: 13px 25px 12px 20px;
+    background: #2774AE;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+
+} 
+#acessibilidade-sidebar .btns span:hover {
+    color: #008CB1;
+}
+#acessibilidade-sidebar .btns .reader-btn:hover{
+    max-width:200px;
+}                               
+#acessibilidade-sidebar .btns .increaseFont-btn:hover{
+    max-width:200px;
+}
+#acessibilidade-sidebar .btns .decreaseFont-btn:hover{
+    max-width:200px;
+}
+#acessibilidade-sidebar .btns .contrast-btn:hover{
+    max-width:200px;
+}
+#acessibilidade-sidebar .btns .grayscale-btn:hover{
+    max-width:200px;
+}
+#acessibilidade-sidebar .btns .reverse-btn:hover{
+    max-width:200px;
+}
+#acessibilidade-sidebar .btns .linkHigh-btn:hover{
+    max-width:200px;
+}
+#acessibilidade-sidebar .btns .resetAll-btn:hover{
+    max-width:200px;
+}
+#acessibilidade-sidebar .btns .accessibility-btn:hover{
+    max-width:200px;
+}
+/* toolbarEnd */
+
+.gray {
+    filter: grayscale(100);
+}
+
+.reverse {
+    filter: hue-rotate(90deg)
+}
+
+
+.linkHighLight a {
+    text-decoration: underline !important;
+}
+
+
+.contrast {
+    filter: contrast(200%);
+}
+
+/* Página Acessibilidade */
+.zoom {
+    float: left;
+    width: 50%;
+    padding: 3px;
+}
+
+.acessibilidade-wrapper img{
+    width:40px;
+    height: 40px;;
+    margin: auto;
+    display: block;
+}
+/* Página Acessibilidade Fim */
+p{
+    text-align: justify;
+}
+
